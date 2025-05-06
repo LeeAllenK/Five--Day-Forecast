@@ -1,7 +1,7 @@
 
 <div id="header" >
- <h1  class="heading-element" dir="auto">Weather App)<a href="https://fladev-weather.netlify.app/">Visit Here</a></h1>
- <img src="https://i.imgur.com/Q8oEyZM.gif" alt="Five Day Forecast">
+ <h1  class="heading-element" dir="auto">Weather App<a href="https://fladev-weather.netlify.app/">Visit Here</a></h1>
+ <img src="https://i.imgur.com/WlchL7B.gif" alt="Five Day Forecast">
 
 </div>
 
