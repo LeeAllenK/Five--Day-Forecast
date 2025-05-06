@@ -28,7 +28,7 @@ This five-day weather forecast app provide users with accurate weather informati
   VITE_API_BUCKET="Your web app's Firebase configuration"
   VITE_API_SENDER_ID="Your web app's Firebase configuration"
   VITE_API_APP_ID="Your web app's Firebase configuration3"
-  VITE_API_MEASURE_ID="Your web app's Firebase configuration"
+  VITE_API_MEASURE_ID="Your web app's Firebase configuration"<br/>
   5. npm run dev
 </div>
 
