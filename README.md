@@ -22,12 +22,12 @@ This five-day weather forecast app provide users with accurate weather informati
  3. Go to https://console.firebase.google.com/ create an account follow instructions.<br/>
  4. In root folder npm install dotenv in your .env folder keep your firebaseConfig <br/>
   Example:<br/>
-  VITE_API_KEY="Your web app's Firebase configuration"
-  VITE_API_DOMAIN="Your web app's Firebase configuration"
-  VITE_API_PROJECT_ID="Your web app's Firebase configuration"
-  VITE_API_BUCKET="Your web app's Firebase configuration"
-  VITE_API_SENDER_ID="Your web app's Firebase configuration"
-  VITE_API_APP_ID="Your web app's Firebase configuration3"
+  VITE_API_KEY="Your web app's Firebase configuration"<br/>
+  VITE_API_DOMAIN="Your web app's Firebase configuration"<br/>
+  VITE_API_PROJECT_ID="Your web app's Firebase configuration"<br/>
+  VITE_API_BUCKET="Your web app's Firebase configuration"<br/>
+  VITE_API_SENDER_ID="Your web app's Firebase configuration"<br/>
+  VITE_API_APP_ID="Your web app's Firebase configuration3"<br/>
   VITE_API_MEASURE_ID="Your web app's Firebase configuration"<br/>
   5. npm run dev
 </div>
