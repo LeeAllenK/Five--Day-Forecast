@@ -19,7 +19,7 @@ This five-day weather forecast app provide users with accurate weather informati
  <h1 class="heading-element" dir="auto">Installation:</h1>
  1. git clone repo.<br/>
  2. npm install<br/>
- 3. Go to https://console.firebase.google.com/ create an account follow instructions.
+ 3. Go to https://console.firebase.google.com/ create an account follow instructions.<br/>
  4. In root folder npm install dotenv in your .env folder keep your firebaseConfig 
   Example:
   VITE_API_KEY="Your web app's Firebase configuration"
