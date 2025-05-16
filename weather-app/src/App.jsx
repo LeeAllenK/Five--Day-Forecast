@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from 'react';
+import {useState, useEffect } from 'react';
 import dayjs from 'dayjs';
 import { WeatherCard } from './components/WeatherCard'
 import { DefaultCard } from './components/DefaultCard'
@@ -18,8 +18,8 @@ export default function App() {
   });
   const [forecastGeo, setForecastGeo] = useState([]);
   const [forecastCity, setForecastCity] = useState([]);
-  const apiKeyCity = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=b8bd1d08aa24f089a65f8c6f4b056564`
-  const apiKey = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&appid=b8bd1d08aa24f089a65f8c6f4b056564`
+  const apiKeyCity = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${import.meta.env.VITE_CITY_API_KEY}`
+  const apiKey = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&appid=${import.meta.env.VITE_CITY_API_KEY}`
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(function (position) {
       setLat(position.coords.latitude);
@@ -43,7 +43,7 @@ export default function App() {
         return err;
       }
     }
-    // getLocation()
+    getLocation()
   }, [lat, long])
   useEffect(() => {
     const getWeather = async () => {
@@ -70,7 +70,7 @@ export default function App() {
         return err;
       }
     }
-    // getWeather()
+    getWeather()
   }, [city])
 
   function handleCity() {
